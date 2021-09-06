@@ -1,0 +1,62 @@
+# Nmap 7.91 scan initiated Sun Sep  5 21:23:19 2021 as: nmap -sV -sS -Pn -oN fullscan.txt www.twitter.com
+Nmap scan report for www.twitter.com (104.244.42.193)
+Host is up (0.62s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      tsa_f
+443/tcp open  ssl/https tsa_f
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.91%I=7%D=9/5%Time=6135276F%P=x86_64-pc-linux-gnu%r(GetRe
+SF:quest,CB,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nx-connection-hash:\x201
+SF:2e572082d9b31a637d8225e1b49513ec2907843ed1c889b7323abde7d0a8554\r\ndate
+SF::\x20Sun,\x2005\x20Sep\x202021\x2020:24:04\x20GMT\r\nserver:\x20tsa_f\r
+SF:\nconnection:\x20close\r\ncontent-length:\x200\r\n\r\n")%r(HTTPOptions,
+SF:CB,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nx-connection-hash:\x203909f4c
+SF:015a451295213a2170fa689d89ba33fea3cb4bff3d9bc6dd2acc0c516\r\ndate:\x20S
+SF:un,\x2005\x20Sep\x202021\x2020:24:06\x20GMT\r\nserver:\x20tsa_f\r\nconn
+SF:ection:\x20close\r\ncontent-length:\x200\r\n\r\n")%r(RTSPRequest,F1,"HT
+SF:TP/1\.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-ty
+SF:pe:\x20text/plain\r\nx-connection-hash:\x202ce6f1d894a6ee61ffa2ce756ecf
+SF:5c1fc2f689333160fe22f23eefabcf267c0e\r\ndate:\x20Sun,\x2005\x20Sep\x202
+SF:021\x2020:24:08\x20GMT\r\nserver:\x20tsa_f\r\nconnection:\x20close\r\n\
+SF:r\nBad\x20Request")%r(X11Probe,F1,"HTTP/1\.1\x20400\x20Bad\x20Request\r
+SF:\ncontent-length:\x2011\r\ncontent-type:\x20text/plain\r\nx-connection-
+SF:hash:\x2056ff1c1fc58bbfff33b50520a0bfb5bbab2ebd1da87ac5f08a5143542f2a4f
+SF:8d\r\ndate:\x20Sun,\x2005\x20Sep\x202021\x2020:24:11\x20GMT\r\nserver:\
+SF:x20tsa_f\r\nconnection:\x20close\r\n\r\nBad\x20Request")%r(FourOhFourRe
+SF:quest,CB,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nx-connection-hash:\x207
+SF:ce1284e260d86c995c533f7ff8fc169e6ac3030a39f47e652bebc523c4ebbbd\r\ndate
+SF::\x20Sun,\x2005\x20Sep\x202021\x2020:24:13\x20GMT\r\nserver:\x20tsa_f\r
+SF:\nconnection:\x20close\r\ncontent-length:\x200\r\n\r\n")%r(RPCCheck,F1,
+SF:"HTTP/1\.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent
+SF:-type:\x20text/plain\r\nx-connection-hash:\x200d488c35ee9fc73e5486334ee
+SF:2357068b6d63396994cd9934aa2afa095ff8eeb\r\ndate:\x20Sun,\x2005\x20Sep\x
+SF:202021\x2020:24:24\x20GMT\r\nserver:\x20tsa_f\r\nconnection:\x20close\r
+SF:\n\r\nBad\x20Request")%r(Help,F1,"HTTP/1\.1\x20400\x20Bad\x20Request\r\
+SF:ncontent-length:\x2011\r\ncontent-type:\x20text/plain\r\nx-connection-h
+SF:ash:\x202f818b8bdc56498512c96373a6552eaf03d91d58095de52f43e0d935e06dc65
+SF:0\r\ndate:\x20Sun,\x2005\x20Sep\x202021\x2020:24:44\x20GMT\r\nserver:\x
+SF:20tsa_f\r\nconnection:\x20close\r\n\r\nBad\x20Request");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.91%T=SSL%I=7%D=9/5%Time=61352776%P=x86_64-pc-linux-gnu%
+SF:r(GetRequest,CB,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nx-connection-has
+SF:h:\x2042e57db3dac54242af49fa258d2806f657eceb6b58be8ed2b2b1a6c75d4c899f\
+SF:r\ndate:\x20Sun,\x2005\x20Sep\x202021\x2020:24:11\x20GMT\r\nserver:\x20
+SF:tsa_f\r\nconnection:\x20close\r\ncontent-length:\x200\r\n\r\n")%r(HTTPO
+SF:ptions,CB,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nx-connection-hash:\x20
+SF:e3c852f64cef912c162abaaacac3d979c6ff36002106760e8aaf149c5ec3657c\r\ndat
+SF:e:\x20Sun,\x2005\x20Sep\x202021\x2020:24:14\x20GMT\r\nserver:\x20tsa_f\
+SF:r\nconnection:\x20close\r\ncontent-length:\x200\r\n\r\n")%r(FourOhFourR
+SF:equest,CB,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nx-connection-hash:\x20
+SF:f4831a30edb6c383a29947af16f88ea8ff5cb6ab890bdc9687e8f494f44ad9dc\r\ndat
+SF:e:\x20Sun,\x2005\x20Sep\x202021\x2020:24:16\x20GMT\r\nserver:\x20tsa_f\
+SF:r\nconnection:\x20close\r\ncontent-length:\x200\r\n\r\n")%r(tor-version
+SF:s,F1,"HTTP/1\.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\nco
+SF:ntent-type:\x20text/plain\r\nx-connection-hash:\x20f3d515562501feed96cd
+SF:789816781c9f914b6df253b14893c6248894cb53cbc0\r\ndate:\x20Sun,\x2005\x20
+SF:Sep\x202021\x2020:24:20\x20GMT\r\nserver:\x20tsa_f\r\nconnection:\x20cl
+SF:ose\r\n\r\nBad\x20Request");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep  5 21:26:17 2021 -- 1 IP address (1 host up) scanned in 177.98 seconds
